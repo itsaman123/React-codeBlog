@@ -44,17 +44,19 @@ const Contact = () => {
                 </div>
                 <div className="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">
-                    Message 
+                    Message
                   </label>
                   <textarea
                     className="form-control"
                     id="exampleFormControlTextarea1"
-                    rows="3"
+                    rows="3" cols="5"
                   ></textarea>
                 </div>
                 <div class="col-12">
-    <button class="btn btn-outline-success" type="submit">Submit form</button>
-  </div>
+                  <button class="btn btn-outline-info" type="submit">
+                    Submit form
+                  </button>
+                </div>
               </form>
             </div>
           </div>
